@@ -24,49 +24,55 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 <h2>Setting up Virtual Machines</h2>
 
 1. Open a browser and go to [Azure's Portal](https://portal.azure.com/#home).
-
+<p align="center">
 <img src="https://i.imgur.com/xErpDMq.png" height="70%" width="70%" alt="Azure Portal"/>
 <br />
 <br />
 
 2. We first need to create a Resource Group to put our VM's in. Click on **"Resource Group"**
-
+<p align="center">
 <img src="https://i.imgur.com/QbYs8La.png" height="70%" width="70%" alt="Click on Resource Group"/>
 <br />
 <br />
 
 3. Click on **"Create"**
-
+<p align="center">
 <img src="https://i.imgur.com/p4mtvKR.png" height="70%" width="70%" alt="Click on Create"/>
 <br />
 <br />
 
 4. Name and create your Resource Group. *Make sure you have the same region for your resource group and your VM's.
+<p align="center">
 <img src="https://i.imgur.com/ER3sqGO.png" height="70%" width="70%" alt="Creating Resource Group"/>
 <br />
 <br />
 
 5. After Creating your Resource group, head back to the [Azure's Home Portal](https://portal.azure.com/#home). Click on **"Virtual Machines"**
-
+<p align="center">
 <img src="https://i.imgur.com/UU4kE8K.png" height="70%" width="70%" alt="Virtual Machines"/>
 <br />
 <br />
 
-7. Click **"Create"**. Then **"Azure Virtual Machine"**
+6. Click **"Create"**. Then **"Azure Virtual Machine"**
+<p align="center">
 <img src="https://i.imgur.com/NEAcIGO.png" height="70%" width="70%" alt="Create Virtual Machine"/>
 <br />
 <br />
 
-8. We will be attaching this Virtual Machine to the resource group we created and will be naming the Virtual machine we are making. Please make sure it is in the correct region again. 
+7. We will be attaching this Virtual Machine to the resource group we created and will be naming the Virtual machine we are making. Please make sure it is in the correct region again. 
+<p align="center">
 <img src="https://i.imgur.com/hwvtR7N.png" height="70%" width="70%" alt="Credit Card Information Page"/>
 <br />
 <br />
 
-9. 
 
-<img src=" " height="70%" width="70%" alt="Azure Portal"/>
+
+
+
+<p align="center">
+<img src=" " height="70%" width="70%" alt=" "/>
 <br />
 <br />
 
-<h2>Things to Consider</h2>
+<h2>Headers</h2>
 
