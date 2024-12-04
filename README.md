@@ -64,4 +64,48 @@ Virtual machines let you run multiple operating systems on a single computer. Th
   <br /><br />
 </p>
 
-8. 
+8. Click on the **"Image"** dropdown and choose what type of Virtual Machine you want to create. 
+<p align="center">
+<img src="https://i.imgur.com/HSt0Z3e.png" height="70%" width="70%" alt" drop-down computer list"/>
+
+9. Create a username and password for your Virtual Machine. Lastly, click on **"I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."**. Click on **"Review + Create"**
+<p align="center">
+<img src="https://i.imgur.com/vy3ATYD.png" height="70%" width="70%" alt"Create Username and Password"/>
+
+10. Click on **"Create"** once everything has been validated and there are no error signs. Azure will then begin to deploy your Virtual Machine. After a couple of minutes, a Virtual Machine will be created and you will see all necessary components of your machine in your resource group.
+<p align="center">
+<img src="https://i.imgur.com/lE05Jqp.png" height="70%" width="70%" alt"Deployed Virtual Machine"/>
+<p align="center">
+<img src="https://i.imgur.com/1gJAxJG.png" height="70%" width="70%" alt"Deployed Virtual Machine"/>
+
+<h2>Connecting to our VM in Windows</h2>
+
+1.
+
+<h2>Connecting to our VM in MacOs</h2>
+
+1. We need to obtain the IP address of our Virtual Machine, click on the Virtual Machine we just made from the Azure home portal.
+<p align="center">
+<img src="https://i.imgur.com/Zb7CbPp.png" height="70%" width="70%" alt"Click on Virtual Machine for Details"/>
+
+2. Locate the IP Address for your Virtual Machine and copy or write down the address. We will be using this address in our next step.
+<p align="center">
+<img src="https://i.imgur.com/ve9YxYL.png" height="70%" width="70%" alt"Copy IP Address"/>
+
+3. Go to your App Store and Download the **"Windows App"** 
+<p align="center">
+<img src="https://i.imgur.com/QwMvLNX.png" height="70%" width="70%" alt"Windows App in App Store"/>
+
+4. Start the **"Windows App"** and click on the **"+"**, and click **"Add PC"**
+<p align="center">
+<img src="https://i.imgur.com/nDfqklr.png" height="70%" width="70%" alt"Adding New PC to Remote Desktop"/>
+
+5. Enter your Virtual Machine's IP Address in **"PC Name"** and name your Virtual Machine in **"Friendly Name"**. Click **"Add"**.
+<p align="center">
+<img src="https://i.imgur.com/ZUscUQ6.png" height="70%" width="70%" alt"IP Address in Remote Desktop"/>
+
+
+
+
+
+
