@@ -27,7 +27,7 @@ Virtual machines let you run multiple operating systems on a single computer. Th
   <br /><br />
 </p>
 
-2. First, create a Resource Group to store your VMs. Click on **"Resource Group"**.
+2. Create a Resource Group to store your VMs"
 <p align="center">
   <img src="https://i.imgur.com/QbYs8La.png" height="70%" width="70%" alt="Click on Resource Group"/>
   <br /><br />
@@ -40,39 +40,45 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 </p>
 
 4. Name your Resource Group and create it.  
-   **Note**: *Make sure to select the same region for both your Resource Group and Virtual Machines.*
+   **Note**: *Ensure your Resource Group and Virtual Machine are in the same region.*
 <p align="center">
   <img src="https://i.imgur.com/ER3sqGO.png" height="70%" width="70%" alt="Creating Resource Group"/>
   <br /><br />
 </p>
 
-5. After creating your Resource Group, head back to the [Azure's Home Portal](https://portal.azure.com/#home). Click on **"Virtual Machines"**.
+5. Return to the [Azure's Portal](https://portal.azure.com/#home). Click on **"Virtual Machines"**.
 <p align="center">
   <img src="https://i.imgur.com/UU4kE8K.png" height="70%" width="70%" alt="Virtual Machines"/>
   <br /><br />
 </p>
 
-6. Click **"Create"**. Then **"Azure Virtual Machine"**.
+6. Click **"Create"** and then select **"Azure Virtual Machine"**.
 <p align="center">
   <img src="https://i.imgur.com/NEAcIGO.png" height="70%" width="70%" alt="Create Virtual Machine"/>
   <br /><br />
 </p>
 
-7. Attach the Virtual Machine to the Resource Group you created and name your Virtual Machine. Ensure it is in the correct region.
+7. Configure the Virtual Machine.
+
+- Attach it to the Resource Group your created earlier.
+- Give your Virtual Machine a name.
+- Select the same region as your Resource Group.
 <p align="center">
   <img src="https://i.imgur.com/hwvtR7N.png" height="70%" width="70%" alt="Attach VM to Resource Group"/>
   <br /><br />
 </p>
 
-8. Click on the **"Image"** dropdown and choose what type of Virtual Machine you want to create. 
+8. Choose an image type for the Virtual Machine from the dropdown menu.
 <p align="center">
 <img src="https://i.imgur.com/HSt0Z3e.png" height="70%" width="70%" alt" drop-down computer list"/>
 
-9. Create a username and password for your Virtual Machine. Lastly, click on **"I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."**. Click on **"Review + Create"**
+9. Create a username and password for your Virtual Machine.
+
+**"Note:"** Check the box confirming you have an eligible Windows 10/11 license. 
 <p align="center">
 <img src="https://i.imgur.com/vy3ATYD.png" height="70%" width="70%" alt"Create Username and Password"/>
 
-10. Click on **"Create"** once everything has been validated and there are no error signs. Azure will then begin to deploy your Virtual Machine. After a couple of minutes, a Virtual Machine will be created and you will see all necessary components of your machine in your resource group.
+10. Once validation passes, click **"Create"**. Azure will deploy your Virtual Machine in a few minutes. 
 <p align="center">
 <img src="https://i.imgur.com/lE05Jqp.png" height="70%" width="70%" alt"Deployed Virtual Machine"/>
 <p align="center">
@@ -84,23 +90,23 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 
 <h2>Connecting to our VM in MacOs</h2>
 
-1. We need to obtain the IP address of our Virtual Machine, click on the Virtual Machine we just made from the Azure home portal.
+1. Find your VM's IP Address by clicking on the Virtual Machine in the Azure Portal. 
 <p align="center">
 <img src="https://i.imgur.com/Zb7CbPp.png" height="70%" width="70%" alt"Click on Virtual Machine for Details"/>
 
-2. Locate the IP Address for your Virtual Machine and copy or write down the address. We will be using this address in our next step.
+2. Copy the public IP address displayed in the VM details.
 <p align="center">
 <img src="https://i.imgur.com/ve9YxYL.png" height="70%" width="70%" alt"Copy IP Address"/>
 
-3. Go to your App Store and Download the **"Windows App"** 
+3. Download **"Windows App"** from the Mac App Store.
 <p align="center">
 <img src="https://i.imgur.com/QwMvLNX.png" height="70%" width="70%" alt"Windows App in App Store"/>
 
-4. Start the **"Windows App"** and click on the **"+"**, and click **"Add PC"**
+4. Start the **"Windows App"**, click on the **"+"**, and select **"Add PC"**
 <p align="center">
 <img src="https://i.imgur.com/nDfqklr.png" height="70%" width="70%" alt"Adding New PC to Remote Desktop"/>
 
-5. Enter your Virtual Machine's IP Address in **"PC Name"** and name your Virtual Machine in **"Friendly Name"**. Click **"Add"**.
+5. Enter your Virtual Machine's IP Address in **"PC Name"** and give it a **"Friendly Name"** Click **"Add"**.
 <p align="center">
 <img src="https://i.imgur.com/ZUscUQ6.png" height="70%" width="70%" alt"IP Address in Remote Desktop"/>
 
