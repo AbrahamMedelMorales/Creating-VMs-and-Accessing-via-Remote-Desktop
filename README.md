@@ -86,7 +86,35 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 
 <h2>Connecting to our VM in Windows</h2>
 
-1.
+1. Find your VM's IP Address by clicking on the Virtual Machine in the Azure Portal. 
+<p align="center">
+<img src="https://i.imgur.com/Zb7CbPp.png" height="70%" width="70%" alt"Click on Virtual Machine for Details"/>
+
+2.  Copy the public IP address displayed in the VM details.
+<p align="center">
+<img src="https://i.imgur.com/ve9YxYL.png" height="70%" width="70%" alt"Copy IP Address"/>
+
+3. Look up **"Remote Desktop Connection"** on your Windows search bar.
+<p align="center">
+<img src="https://i.imgur.com/sODbJRw.png" height="70%" width="70%" alt"Search Remote Desktop Connection"/>
+
+4. Enter Virtual Machines IP Address
+<p align="center">
+<img src="https://i.imgur.com/3VWeEba.png" height="70%" width="70%" alt"Enter IP Address"/>
+
+5. Enter your log in credentials you created for your Virtual Machine.
+<p align="center">
+<img src="https://i.imgur.com/Zrxnlc2.png" height="70%" width="70%" alt"Enter VM Credentials"/>
+
+6. Click **"Yes"** to connect to Virtual Machine. 
+<p align="center">
+<img src="https://i.imgur.com/42oPuTQ.png" height="70%" width="70%" alt"Click yes to connect"/>
+
+7. Your Virtual Machine will now be connected. 
+<p align="center">
+<img src="https://i.imgur.com/EsaY72P.png" height="70%" width="70%" alt"Windows VM"/>
+
+**"Note:"** If you are using a Windows computer, a small blue bar will appear at the top of the Virtual Machine to differentiate between them. 
 
 <h2>Connecting to our VM in MacOs</h2>
 
@@ -102,7 +130,7 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 <p align="center">
 <img src="https://i.imgur.com/QwMvLNX.png" height="70%" width="70%" alt"Windows App in App Store"/>
 
-4. Start the **"Windows App"**, click on the **"+"**, and select **"Add PC"**
+4. Start the [**"Windows App"**](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12), click on the **"+"**, and select **"Add PC"**
 <p align="center">
 <img src="https://i.imgur.com/nDfqklr.png" height="70%" width="70%" alt"Adding New PC to Remote Desktop"/>
 
@@ -110,8 +138,15 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 <p align="center">
 <img src="https://i.imgur.com/ZUscUQ6.png" height="70%" width="70%" alt"IP Address in Remote Desktop"/>
 
+6. Enter the credential you created for your Virtual Machine.
+<p align="center">
+<img src="https://i.imgur.com/Y1UFOGd.png"70%" width="70%" alt"Log in Credentials"/>
 
-
+7. Your Virtual Machine will now be connected.
+<p align="center">
+<img src="https://i.imgur.com/mEGRlMD.png"70%" width="70%" alt"Welcome to Windows"/>
+<p align="center">
+<img src="https://i.imgur.com/zLWVeUY.png"70%" width="70%" alt"Windows Start-up"/>
 
 
 
