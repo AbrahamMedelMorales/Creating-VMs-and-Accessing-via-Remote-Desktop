@@ -17,8 +17,13 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 <h2>Tools Needed for Virtual Machines</h2>
 
 - A computer with an internet connection  
-- An active Azure Subscription
+- An active Azure Subscription 
 - **"Windows App"** for Mac Users
+
+<h3>Helpful Resources</h3>
+Before proceeding, ensure you have an active Azure Subscription:
+
+- [**"How to set up a free Azure account"**](https://github.com/AbrahamMedelMorales/Setting-up-Azure)
 
 <h2>Setting up Virtual Machines</h2>
 
@@ -148,6 +153,4 @@ Virtual machines let you run multiple operating systems on a single computer. Th
 <img src="https://i.imgur.com/mEGRlMD.png"70%" width="70%" alt" Welcome to Windows"/>
 <p align="center">
 <img src="https://i.imgur.com/zLWVeUY.png"70%" width="70%" alt"Windows Start-up"/>
-
-
 
